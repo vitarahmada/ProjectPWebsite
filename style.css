@@ -1,0 +1,36 @@
+/* Navbar */
+.navbar-brand{
+  font-family: Secular One;
+  font-size: 24px;
+}
+
+/* Jumbotron */
+.jumbotron{
+  background-image: url(img/jumbotron-lp.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.jumbotron .display-4{
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) { 
+  .nav-link{
+    /* memberi jarak antar nav-link */
+    margin-right: 25px;
+  }
+
+  /* menyorot nav-link */
+  .nav-link:hover{
+    border-bottom: 3px solid #636e72;
+  }
+
+ }
