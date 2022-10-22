@@ -19,7 +19,7 @@
   <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
     <!-- container membuat navbar tidak terlalu menempel ke kiri -->
     <div class="container">
       <a class="navbar-brand" href="#">NovelDigital</a>
@@ -29,17 +29,44 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <!-- ml-auto menambahkan margin agar home dll berada di kanan -->
         <div class="navbar-nav ml-auto">    
-          <a class="nav-item nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Beranda</a>
           <a class="nav-item nav-link" href="#">Novel</a>
           <a class="nav-item nav-link" href="#">Artikel</a>
-          <a class="nav-item nav-link" href="#">Tentang</a>
+          <a class="nav-item nav-link active" href="#">Tentang <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </div>
   </nav>
   <!-- Akhir Navbar -->
 
- 
+  <!-- Tentang -->
+  <div class="container bg-light mb-5">
+    <div class="row text-center">
+      <div class="col-12 py-5">
+          <h1>Membuat Layout Satu Kolom</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit libero unde ullam ducimus
+              sunt, saepe fugit animi accusamus accusantium excepturi corrupti aut tenetur? Cumque quasi ratione
+              ipsam facere quod?</p>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Tentang -->
+
+  <!-- Form Masukan -->
+  <div class="container mb-5">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Masukan</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-secondary">Kirim</button>
+    </form>
+  </div>
+  <!-- Akhir Form Masukan -->
 
   <!-- Footer -->
   <footer class="bg-dark text-light">
