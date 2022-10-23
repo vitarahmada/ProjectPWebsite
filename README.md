@@ -1,6 +1,7 @@
 # UTS Pemrograman Website
 
-Judul Project : Website Novel Digital
+Judul Project : WEBSITE NOVEL DIGITAL
+
 
 NIM   : 20051204003
 
